@@ -1,0 +1,67 @@
+.clear{
+    background-image: url("https://cdn.wallpapersafari.com/72/23/95A6Gz.jpg");
+}
+
+.clouds{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/05/23/30/nature-3294543_1280.jpg");
+}
+
+.rain {
+    background-image: url("https://cdn.wallpapersafari.com/16/55/8GeKwf.jpg");
+}
+
+.snow {
+    background-image: url("https://cdn.wallpapersafari.com/26/88/J5zLlV.jpg");
+}
+.mist {
+    background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/513334-forest-mist-748x499.jpg");
+}
+body{
+    font-family: "Trebuchet MS";
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 2em;
+    position: relative;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+h1 span {
+    color: #222;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+i.wi{
+    font-size: 5em;
+    line-height: 3em;
+}
+h2{
+    font-size: 2em;
+}
+#tooltip{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity .2s, top .3s;
+}
+
+h1:hover #tooltip{
+    top: -50px;
+    opacity: 1;
+}
